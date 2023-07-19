@@ -1,2 +1,28 @@
 
 /* Your CSS Code here. */
+table{ 
+    border-collapse: collapse;
+    /* border-right: 1px solid black;  
+    border-left: 1px solid black;  */
+    width: 500px;
+
+ }
+ thead th{
+    padding-top: 5px; 
+    padding-bottom:5px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    color: white;
+    background-color: black;
+  }
+  tbody td{ 
+    border-bottom: 1px solid rgb(162, 162, 162);
+    /* border-top: 1px solid grey; */
+    padding-top: 5px; 
+    padding-bottom:5px; 
+    text-align: center;
+  }
+  #total{  
+    text-align: right;
+    padding-right:150px;
+  }
